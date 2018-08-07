@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "node_dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "node_src/types/*"
+            ]
+        }
+    },
+    "include": [
+        "node_src/**/*" 
+    ]
+    // "exclude": [
+        // "node_modules"
+    // ]
+}
