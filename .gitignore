@@ -34,7 +34,7 @@ testem.log
 /sandbox.js
 
 # secret config files
-/node_src/config
+/node_src/config/*
 
 # e2e
 /e2e/*.js
