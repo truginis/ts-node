@@ -33,6 +33,9 @@ testem.log
 *.xlsx
 /sandbox.js
 
+# secret config files
+/node_src/config
+
 # e2e
 /e2e/*.js
 /e2e/*.map
